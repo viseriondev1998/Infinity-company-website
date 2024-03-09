@@ -333,19 +333,24 @@ export const Homepage = () => {
                     <div className="col-span-4 bg-gray-100 rounded-lg p-3 flex gap-5 items-start border-l-8 border-primary-700">
                          <div>
                               <p className="text-md">Call for consultations now!</p>
-                              <p className="text-xl text-gray-500">+91 1234567890</p>
+                              <p className="text-xl text-gray-500">Sales :- +91 77588 14877</p>
+                              <p className="text-xl text-gray-500">Demo :- +91 97669 00513</p>
+                              <p className="text-xl text-gray-500">Technical :- +91 86690 26894</p>
                          </div>
                     </div>
                     <div className="col-span-4 bg-gray-100 rounded-lg p-3 flex gap-5 items-start border-l-8 border-primary-700">
                          <div>
                               <p className="text-md">Write to us</p>
-                              <p className="text-xl text-gray-500">finiteinfinitysoltion@gmail.com</p>
+                              <p className="text-xl text-gray-500">infinitytechsolution@gmail.com</p>
                          </div>
                     </div>
                     <div className="col-span-4 bg-gray-100 rounded-lg p-3 flex gap-5 items-start border-l-8 border-primary-700">
                          <div>
                               <p className="text-md">Address</p>
-                              <p className="text-xl text-gray-500">company, address, pin code</p>
+                              <p className="text-md text-gray-500">
+                                   Shop no. 1 Anam apartment opp. samarth nagar gate hanuman Nagar nalasopara west
+                                   401203
+                              </p>
                          </div>
                     </div>
                </div>
