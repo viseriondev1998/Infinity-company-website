@@ -1,31 +1,11 @@
-import React, { FC, ReactNode, useState } from "react";
-import { AiOutlineDown, AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import React, { FC, ReactNode } from "react";
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai";
 
 interface LayoutProps {
      children: ReactNode;
 }
 
-const Links = [
-     {
-          label: "home",
-          path: "/",
-          target: "#",
-     },
-     {
-          label: "about",
-          path: "/about-us",
-          target: "#about",
-     },
-     {
-          label: "contact",
-          path: "/contact-us",
-          target: "#contact",
-     },
-];
-
 export const Layout: FC<LayoutProps> = ({ children }) => {
-     const [dropDown, setDropDown] = useState<boolean>(false);
      return (
           <div className="relative">
                <nav className="bg-gray-950 fixed top-0 shadow-xl z-50 w-full bg-opacity-50 py-5">
