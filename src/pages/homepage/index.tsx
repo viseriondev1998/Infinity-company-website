@@ -256,25 +256,31 @@ export const Homepage = () => {
                </div>
                <div className=" xl:w-[90%] mx-auto flex flex-col gap-20 mt-20">
                     <p className="uppercase text-primary-700 font-semibold text-center">Meet our team</p>
-                    <div className="grid grid-cols-12 gap-10">
-                         <div className="col-span-4">
-                              <img src={require("../../assets/profile-pic.png")} className="w-[80%]" alt="" />
+                    <div className="grid grid-cols-12 gap-10 justify-center">
+                         <div className="col-span-4 flex flex-col items-center">
+                              {/* <div className="w-[350px]"> */}
+                              <img src={require("../../assets/RAJAT.jpeg")} className="w-[100%]" alt="" />
+                              {/* </div> */}
                               <div className="my-5">
-                                   <h6 className="text-2xl text-primary-700 font-semibold">Json Web</h6>
+                                   <h6 className="text-2xl text-primary-700 font-semibold">Rajat Singh</h6>
                                    <p>Founder & CEO</p>
                               </div>
                          </div>
-                         <div className="col-span-4">
-                              <img src={require("../../assets/profile-pic.png")} className="w-[80%]" alt="" />
+                         <div className="col-span-4 flex flex-col items-center">
+                              {/* <div className="w-[350px]"> */}
+                              <img src={require("../../assets/BHANU.jpeg")} className="w-[80%]" alt="" />
+                              {/* </div>{" "} */}
                               <div className="my-5">
-                                   <h6 className="text-2xl text-primary-700 font-semibold">Json Web</h6>
+                                   <h6 className="text-2xl text-primary-700 font-semibold">Bhanu Singh</h6>
                                    <p>Product & Sales</p>
                               </div>
                          </div>
-                         <div className="col-span-4">
-                              <img src={require("../../assets/profile-pic.png")} className="w-[80%]" alt="" />
+                         <div className="col-span-4 flex flex-col items-center">
+                              <div className="w-[350px]">
+                                   <img src={require("../../assets/AAKASH.jpeg")} className="w-[80%]" alt="" />
+                              </div>
                               <div className="my-5">
-                                   <h6 className="text-2xl text-primary-700 font-semibold">Json Web</h6>
+                                   <h6 className="text-2xl text-primary-700 font-semibold">Mistry Aakash</h6>
                                    <p>Technical & Disaster Management</p>
                               </div>
                          </div>
