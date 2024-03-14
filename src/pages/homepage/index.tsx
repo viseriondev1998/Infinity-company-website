@@ -272,7 +272,7 @@ export const Homepage = () => {
                               {/* </div>{" "} */}
                               <div className="my-5">
                                    <h6 className="text-2xl text-primary-700 font-semibold">Bhanu Singh</h6>
-                                   <p>Product & Sales</p>
+                                   <p>Founder & Product / Sales Head </p>
                               </div>
                          </div>
                          <div className="col-span-4 flex flex-col items-center">
@@ -281,7 +281,7 @@ export const Homepage = () => {
                               </div>
                               <div className="my-5">
                                    <h6 className="text-2xl text-primary-700 font-semibold">Mistry Aakash</h6>
-                                   <p>Technical & Disaster Management</p>
+                                   <p>Co - Founder / Technical & Disaster Management</p>
                               </div>
                          </div>
                     </div>
